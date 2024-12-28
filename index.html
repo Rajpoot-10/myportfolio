@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="portfolio.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="assets\style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">[Portfolio]</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#intro">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ <!-- Introduction Section -->
+<section class="section-1" id="intro">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12">
+        <div class="intro-content">
+          <h1>
+            Hi, I'm<span class="name-highlight px-3"> Hassam Ali, a</span>
+            <span class="typing">Full Stack Developer </span>
+          </h1>
+          <p>
+            I craft modern, responsive, and intuitive web experiences. From front-end development with HTML, CSS, and JavaScript to robust back-end systems using Python, Django, and MongoDB.
+          </p>
+          <!-- <button class="btn" onclick="scrollToSection('skills')">Explore My Skills</button> -->
+          <div class="cta-buttons">
+            <a href="#about" class="btn btn-primary">Get Started</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+        </div>
+      </div>
+     
+    
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <div class="section-2" id="skills">
+    <h2 class="mb-5">Technologies & Tools</h2>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="text-center">
+          <i class="fas fa-html5 skills-icon"></i>
+          <h3>HTML & CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 95%;">95%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="text-center">
+          <i class="fab fa-bootstrap skills-icon"></i>
+          <h3>JavaScript & Bootstrap</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%;">90%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="text-center">
+          <i class="fab fa-python skills-icon"></i>
+          <h3>Python & Django</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%;">85%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="text-center">
+          <i class="fas fa-database skills-icon"></i>
+          <h3>MongoDB</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-secondary" onclick="scrollToSection('projects')">View My Projects</button>
+  </div>
+
+
+<!-- Projects Section -->
+<div class="section-3" id="projects">
+  <h2 class="text-center project-heading">My Projects</h2>
+  <div class="row">
+    <!-- Project 1 -->
+    <div class="col-md-4 mb-4 project-card">
+      <div class="card">
+        <img src="assets/images/Screenshot_25-12-2024_20444_ (2).jpeg" class="card-img-top" alt="Project Image">
+        <div class="card-overlay">
+          <h5 class="card-title">Portfolio Website</h5>
+          <p class="card-text">A personal portfolio website built with HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn project-btn">View Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="col-md-4 mb-4 project-card">
+      <div class="card">
+        <img src="assets/images/Screenshot_8-9-2024_54928_ (1).jpeg" class="card-img-top" alt="Project Image">
+        <div class="card-overlay">
+          <h5 class="card-title">E-commerce Website</h5>
+          <p class="card-text">An e-commerce site using React and Firebase for backend services.</p>
+          <a href="#" class="btn project-btn">View Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="col-md-4 mb-4 project-card">
+      <div class="card">
+        <img src="assets/images/Screenshot_7-8-2024_22219_ (1) (4).jpeg" class="card-img-top" alt="Project Image">
+        <div class="card-overlay">
+          <h5 class="card-title">Blog Application</h5>
+          <p class="card-text">A blog platform built with Django and PostgreSQL database.</p>
+          <a href="#" class="btn project-btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+<!-- Clients Section -->
+<div class="section-4" id="testimonials">
+  <h2 class="text-center project-heading">What Clients Say</h2>
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Testimonial 1 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="client-card" data-aos="flip-left" data-aos-delay="100">
+          <img src="assets/images/joshtesolin.jpg" alt="Client 1">
+          <div>
+            <h5>John Doe</h5>
+            <p>"Hassam Ali is an amazing web developer! The project was delivered on time and exceeded expectations."</p>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="client-card" data-aos="flip-left" data-aos-delay="200">
+          <img src="assets/images/IQ-Accountants-managing-partner-Kyelie-Baxter-Slack-customer-story.jpg" alt="Client 2">
+          <div>
+            <h5>Jane Smith</h5>
+            <p>"I was impressed with the level of detail and creativity in the web design. Highly recommended!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <!-- Testimonial 3 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="client-card" data-aos="flip-left" data-aos-delay="300">
+          <img src="assets/images/images.jpeg" alt="Client 3">
+          <div>
+            <h5>Michael Johnson</h5>
+            <p>"The functionality and design were outstanding. Hassam’s expertise truly shines through his work."</p>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 4 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="client-card" data-aos="flip-left" data-aos-delay="400">
+          <img src="assets/images/download.jpeg" alt="Client 4">
+          <div>
+            <h5>Sarah Williams</h5>
+            <p>"The best web developer I have ever worked with! Professional, efficient, and creative."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Contact Section -->
+<div class="contact-section" id="contact">
+  <h2 class="text-center project-heading" data-aos="fade-up">Contact Me</h2>
+  <div class="contact-form-container" data-aos="fade-up" data-aos-delay="200">
+    <form action="#" method="POST" class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" name="name" class="form-input" required>
+        <label for="name" class="form-label">Full Name</label>
+        <i class="fas fa-user form-icon"></i>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" name="email" class="form-input" required>
+        <label for="email" class="form-label">Email</label>
+        <i class="fas fa-envelope form-icon"></i>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+        <label for="message" class="form-label">Message</label>
+        <i class="fas fa-comment form-icon"></i>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+    <div class="social-links mt-4" data-aos="fade-up" data-aos-delay="400">
+      <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  
+
+</body>
+</html>
